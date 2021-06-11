@@ -1,0 +1,218 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1736960600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the techfios login page",
+            "match": {
+              "location": "LoginStepDef.user_is_on_the_techfios_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 21848650400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDef.beforeRun()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "User should be able to login with valid credentials and open a new account",
+        "description": "",
+        "id": "techfios-bank-and-cash-new-account-functionality;user-should-be-able-to-login-with-valid-credentials-and-open-a-new-account;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1164857400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDef.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 699699900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters the \"demo@techfios.com\" and \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo@techfios.com",
+                  "offset": 17
+                },
+                {
+                  "val": "abc123",
+                  "offset": 41
+                }
+              ],
+              "location": "LoginStepDef.user_enters_the_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4756336000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "LoginStepDef.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98665100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should be able to see the dashboard",
+            "match": {
+              "location": "LoginStepDef.user_should_be_able_to_see_the_dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 395825700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on bank and cash",
+            "match": {
+              "location": "LoginStepDef.user_clicks_on_bank_and_cash()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1256768400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks on new account",
+            "match": {
+              "location": "LoginStepDef.user_clicks_on_new_account()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2571458400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User fill up the form entering \"Saving Account\"and \"New Account Opening\"and \"150000\"and \"2345678910\"and \"Norah Smith\"and \"8719865390\"and \"https://www.techfios.com/billing/?ng\u003dadmin/\" and clicks on submit",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Saving Account",
+                  "offset": 32
+                },
+                {
+                  "val": "New Account Opening",
+                  "offset": 52
+                },
+                {
+                  "val": "150000",
+                  "offset": 77
+                },
+                {
+                  "val": "2345678910",
+                  "offset": 89
+                },
+                {
+                  "val": "Norah Smith",
+                  "offset": 105
+                },
+                {
+                  "val": "8719865390",
+                  "offset": 122
+                },
+                {
+                  "val": "https://www.techfios.com/billing/?ng\u003dadmin/",
+                  "offset": 138
+                }
+              ],
+              "location": "LoginStepDef.user_fill_up_the_form_entering_and_and_and_and_and_and_and_clicks_on_submit(String,String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3027029400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User should be able to validate new account created",
+            "match": {
+              "location": "LoginStepDef.user_should_be_able_to_validate_new_account_created()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@Scenario"
+          },
+          {
+            "line": 1,
+            "name": "@LoginFeature"
+          }
+        ]
+      }
+    ],
+    "name": "Techfios bank and cash New Account Functionality",
+    "description": "",
+    "id": "techfios-bank-and-cash-new-account-functionality",
+    "keyword": "Feature",
+    "uri": "features/Login_NewAccount_B\u0026C.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@LoginFeature"
+      }
+    ]
+  }
+]
